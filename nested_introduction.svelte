@@ -18,5 +18,4 @@
 <script>
 	import Nested from './Nested.svelte';
 </script>
-<p>This paragraph comes from Nested.svelte</p>
 <Nested />
