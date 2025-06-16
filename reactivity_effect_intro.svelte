@@ -3,6 +3,9 @@
 	let interval = $state(1000);
 
 	$effect(() => {
+		const id = setInterval(() => {
+			elapsed += 1;
+			}, interval);
 		setInterval(() => {
 			elapsed +=1;
 		}, interval);
